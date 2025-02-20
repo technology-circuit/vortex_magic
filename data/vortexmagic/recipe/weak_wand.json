@@ -16,12 +16,12 @@
             "minecraft:custom_data": {"weak_wand": true},
             "minecraft:custom_name": "{\"text\":\"Weak Wand\",\"italic\":false}",
             "minecraft:consumable": {
-                "consume_seconds": 9999999,
+                "consume_seconds": 1,
                 "animation": "block",
                 "has_consume_particles": false
             },
             "use_cooldown": {
-                "seconds": 35,
+                "seconds": 1,
                 "cooldown_group": "vortexmagic:spells/moss_cast"
             },
             "max_stack_size": 1
