@@ -16,7 +16,7 @@
             "minecraft:custom_data": {"weak_wand": true},
             "minecraft:custom_name": "{\"text\":\"Weak Wand\",\"italic\":false}",
             "minecraft:consumable": {
-                "consume_seconds": 2,
+                "consume_seconds": 9999999,
                 "animation": "block",
                 "has_consume_particles": false
             },
