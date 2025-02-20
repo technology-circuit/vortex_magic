@@ -1,0 +1,30 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "A": "minecraft:amethyst_shard",
+        "S": "minecraft:stick"
+    },
+    "pattern": [
+        "   ",
+        " A ",
+        " S "
+    ],
+    "result": {
+        "id": "minecraft:stick",
+        "components": {
+            "minecraft:custom_data": {"weak_wand": true},
+            "minecraft:custom_name": "{\"text\":\"Weak Wand\",\"italic\":false}",
+            "minecraft:consumable": {
+                "consume_seconds": 2,
+                "animation": "block",
+                "has_consume_particles": false
+            },
+            "use_cooldown": {
+                "seconds": 35,
+                "cooldown_group": "vortexmagic:spells/moss_cast"
+            },
+            "max_stack_size": 1
+        }
+    }
+}
