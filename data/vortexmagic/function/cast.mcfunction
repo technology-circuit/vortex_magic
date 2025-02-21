@@ -21,7 +21,7 @@ execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a
 # fortify
 
 execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ .9 .9
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] at @s run particle minecraft:explosion ~ ~ ~
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] at @s run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[forcefield],Duration:130}
 execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run effect give @s resistance 5 4 true
 execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run effect give @s regeneration 5 2 true
 execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run effect give @s slowness 5 3 true
