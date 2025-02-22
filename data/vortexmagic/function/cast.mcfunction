@@ -11,12 +11,12 @@ execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a
 
 # vine
 
-execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:moss_block"}}] run title @a actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
-execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:moss_block"}}] run playsound minecraft:block.glass.break master @a ~ ~ ~ .3 1.3
+execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] run title @s actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
+execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] run playsound minecraft:block.glass.break master @a ~ ~ ~ .3 1.3
 
 #fortfity
 
-execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run title @a actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
+execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run title @s actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
 execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:shulker_shell"}}] run playsound minecraft:block.glass.break master @a ~ ~ ~ .3 1.3
 
 #vanish
@@ -31,7 +31,7 @@ execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a
 
 #lightning
 
-execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:copper_ingot"}}] run title @a actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
+execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:copper_ingot"}}] run title @s actionbar {"text":"Wand not powerful enough...","color":"#b7a0ff"}
 execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:weak_wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:copper_ingot"}}] run playsound minecraft:block.glass.break master @a ~ ~ ~ .3 1.3
 
 ############ Wand
@@ -64,17 +64,17 @@ execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a
 
 # vine
 
-execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] run playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ .5 1.8
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^3 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^4 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^5 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^6 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^7 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^8 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^9 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^10 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run setblock ^ ^1 ^11 moss_block
-execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:vine"}}] at @s run clear @s vine 1
+execute at @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] run playsound minecraft:entity.evoker.prepare_summon master @a ~ ~ ~ .5 1.8
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^3 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^4 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^5 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^6 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^7 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^8 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^9 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^10 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run setblock ^ ^1 ^11 moss_block
+execute as @s if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:carrot_on_a_stick",components:{"minecraft:item_model":"vortex:wand"}}]}] if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] at @s run clear @s minecraft:wheat_seeds 1
 
 # lightning
 
