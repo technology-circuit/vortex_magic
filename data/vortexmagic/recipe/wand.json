@@ -1,0 +1,26 @@
+{
+    "type": "crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "A": "minecraft:amethyst_block",
+        "S": "minecraft:stick",
+        "L": "minecraft:leather",
+        "E": "minecraft:ender_eye",
+        "G": "minecraft:gold_ingot",
+        "K": "minecraft:lapis_lazuli"
+    },
+    "pattern": [
+        "KAK",
+        "GEG",
+        "LSL"
+    ],
+    "result": {
+        "id": "minecraft:carrot_on_a_stick",
+        "components": {
+            "minecraft:custom_data": {"weak_wand": true},
+            "minecraft:custom_name": "{\"text\":\"Wand\",\"italic\":false}",
+            "minecraft:item_model": "vortex:wand",
+            "max_stack_size": 1
+            }}
+        }
+        
