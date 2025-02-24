@@ -6,6 +6,9 @@ execute if entity @s[nbt={SelectedItem:{id:"minecraft:phantom_membrane"}}] run f
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:coal"}]}] run function vortexmagic:weak_wand/coal
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:coal"}}] run function vortexmagic:weak_wand/coal
 
+execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:lapis_lazuli"}]}] run function vortexmagic:weak_wand/lapis_lazuli
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:lapis_lazuli"}}] run function vortexmagic:weak_wand/lapis_lazuli
+
 # disabled
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:wheat_seeds"}]}] run function vortexmagic:weak_wand/disabled
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] run function vortexmagic:weak_wand/disabled
