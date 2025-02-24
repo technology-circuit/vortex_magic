@@ -1,0 +1,1 @@
+-- magic datapack for minecraft 1.21.4
