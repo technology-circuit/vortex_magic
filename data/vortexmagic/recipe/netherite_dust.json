@@ -12,10 +12,11 @@
       "id": "minecraft:echo_shard",
       "components": {
         "minecraft:item_model": "vortex:netherite_dust",
-        "minecraft:custom_name": "{\"text\":\"Netherite Dust\",\"italic\":false}",
-        "minecraft:max_stack_size": 64
+        "minecraft:item_name": "Netherite Dust",
+        "minecraft:max_stack_size": 64,
+        "minecraft:rarity": "uncommon"
       },
-      "count": 8
+      "count": 4
     },
     "show_notification": false
   }

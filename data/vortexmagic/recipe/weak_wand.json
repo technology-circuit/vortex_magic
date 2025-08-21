@@ -14,7 +14,7 @@
         "id": "minecraft:carrot_on_a_stick",
         "components": {
             "minecraft:custom_data": {"weak_wand": true},
-            "minecraft:custom_name": "{\"text\":\"Weak Wand\",\"italic\":false}",
+            "minecraft:item_name": "Weak Wand",
             "minecraft:item_model": "vortex:weak_wand",
             "max_stack_size": 1
             }}
