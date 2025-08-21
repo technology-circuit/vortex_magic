@@ -1,4 +1,3 @@
-
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:phantom_membrane"}]}] run function vortexmagic:wand/float
 execute if entity @s[nbt={SelectedItem:{id:"minecraft:phantom_membrane"}}] run function vortexmagic:wand/float
 
